@@ -4,18 +4,21 @@
 * {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body {
-    background-color: #ec1c2b;
+    /* background-color: #ec1c2b; */
     margin: 0;
     padding: 50px;
     border: 30px;
+    background-image:linear-gradient(#ff3b58,#d1313d)
 }
 
 header {
     background-color: #7a0a12;
+    height: 190px;
 }
 
 h1 {
@@ -26,10 +29,12 @@ h1 {
 
 nav {
     background-color: #9e0004;
+    height: 30px;
 }
 
 main {
     background-color: #7a0a12;
+    height:auto;
 }
 
 p {
@@ -49,16 +54,21 @@ a:hover{
 /*Uso de dois footer na estrutura. Esse é o novo jeito de comentar código CSS*/
 footer {
     background-color: #ec1c2b;
+    height:175px;
 }
 
 footer {
     color: beige;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
 }
 
 img {
     width: 500px;
     height: 340px;
     ;
+}
+#imgmain{
+    
 }
