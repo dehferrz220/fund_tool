@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/*comentarios para CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: #ec1c2b;
+    margin: 0;
+    padding: 50px;
+    border: 30px;
+}
+
+header {
+    background-color: #7a0a12;
+}
+
+h1 {
+    color: beige;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav {
+    background-color: #9e0004;
+}
+
+main {
+    background-color: #7a0a12;
+}
+
+p {
+    color: beige;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+ color: #7a0a12;
+ text-decoration: none;
+}
+a:hover{
+    color: #ec1c2b;
+    text-decoration: none;
+}
+/*Uso de dois footer na estrutura. Esse é o novo jeito de comentar código CSS*/
+footer {
+    background-color: #ec1c2b;
+}
+
+footer {
+    color: beige;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+img {
+    width: 500px;
+    height: 340px;
+    ;
+}
